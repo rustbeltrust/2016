@@ -105,9 +105,9 @@ h3 {
 #page {
 	width: 330px;
     padding: 30px;
-	margin: 30px auto;
+	margin: 70px auto;
 	position: relative;
-    background: white;
+    background: rgba(255, 255, 255, 0.93);
 }
 
 #header {
@@ -180,4 +180,10 @@ ul {
 		display: block;
 		margin-bottom: 15px;
 	}
+}
+
+/* Customizations */
+
+body {
+    background: url(rust-logo-blk.svg) no-repeat fixed -275px -275px;
 }
