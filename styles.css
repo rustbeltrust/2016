@@ -187,3 +187,8 @@ ul {
 body {
     background: url(rust-logo-blk.svg) no-repeat fixed -275px -275px;
 }
+
+.announcement {
+    border: 2px solid blue;
+    padding: 10px;
+}
