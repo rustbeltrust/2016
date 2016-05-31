@@ -1,0 +1,24 @@
+# Site settings
+title: Rust Belt Rust Conference
+description: >
+    Articles primarily relating to science and technology.
+url: "http://www.rust-belt-rust.com/"
+baseurl: ""
+
+# Build settings
+paginate: 10
+paginate_path: "/archive/:num"
+markdown: redcarpet
+redcarpet:
+    extensions:
+        - with_toc_data
+highlighter: rouge
+permalink: pretty
+exclude: ["_drafts"]
+sass:
+    style: compressed
+
+# Tagging
+tag_page_layout: tag
+tag_page_dir: tag
+tag_permalink_style: pretty
