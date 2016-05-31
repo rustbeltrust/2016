@@ -7,12 +7,39 @@ title: "Sessions"
 <p class="lead">Workshops will be on Day 1; Day 2 will be a single track with 30 minute sessions. The sessions are currently in no particular order - schedule will be announced soon.</p>
 <p class="lead">Abstracts and speaker bios coming soon.</p>
 
+{% for day in site.data.sessions %}
+  <h2>{{day.title}}</h2>
+  {% for track in day.tracks %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{track.title}}</h3>
+      </div>
+      {% for topic in track.topics %}
+        <div class="panel-body">
+          <strong>{{topic.title}}</strong>
+          <p>
+            {% for speaker in topic.speakers %}
+              {% if speaker.web %}
+                <a href="{{speaker.web}}">{{speaker.name}}</a>
+              {% else %}
+                {{speaker.name}}
+              {% endif %}
+              {% if speaker.twitter %}
+                (<a href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>)
+              {% endif %}
+              {% if speaker.avatar %}
+                <div class="pull-right">
+                  <img src="/images/{{speaker.avatar}}.jpg">
+                </div>
+              {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
 
-<h2>Day 1: Workshops (total 8 tracks)</h2>
-<div class="talk">
-    <h3>Welcome, Announcements, &amp; Introduction to the Community (before workshops)</h3>
-    <table><tr><td><div class='speaker'>Speaker: <a href='http://hoverbear.org'>Andrew Hobden</a> (<a href='http://twitter.com/andrewhobden'>@andrewhobden</a>)</div></td><td class='avatar'><img class='avatar' src='/images/andrew-hobden.jpg' /></td></tr></table>
-</div>
+{% endfor %}
 
 <div class="workshop">
     <h3>Rust and Other Languages Track (full day)</h3>
