@@ -10,7 +10,7 @@
               web: https://hoverbear.org
               twitter: andrewhobden
               avatar: andrew-hobden
-    - title: "Rust and Other Languages Track"
+    - title: "Rust and Other Languages Track (full day)"
       start: TBA
       end: TBA
       topics:
@@ -34,7 +34,7 @@
               web: http://joshmatthews.net
               twitter: lastontheboat
               avatar: joshua-matthews
-    - title: "Code Retreat"
+    - title: "Code Retreat (full day)"
       start: TBA
       end: TBA
       topics:
@@ -44,7 +44,7 @@
               web: http://crebma.com/
               twitter: crebma
               avatar: amber-conville
-    - title: "Bare metal"
+    - title: "Bare metal (full day)"
       start: TBA
       end: TBA
       topics:
@@ -53,7 +53,7 @@
             - name: Jorge Aparicio
               twitter: japaricious
               avatar: jorge-aparicio
-    - title: "Testing"
+    - title: "Testing and Debugging (full day)"
       start: TBA
       end: TBA
       topics:
@@ -78,7 +78,7 @@
           speakers:
             - name: Oliver Schneider
               avatar: oliver-schneider
-    - title: "Operating Systems"
+    - title: "Operating Systems (full day)"
       start: TBA
       end: TBA
       topics:
@@ -92,7 +92,7 @@
               twitter: ag_dubs
               web: http://ashleygwilliams.github.io/
               avatar: ashley-williams
-    - title: "Introduction to Rust"
+    - title: "Introduction to Rust (half day, morning)"
       start: TBA
       end: TBA
       topics:
@@ -101,7 +101,25 @@
             - name: Ben Striegel
               twitter: bstrie
               avatar: ben-striegel
-    - title: "Async"
+    - title: "Intermediate Rust (half day, morning)"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Traits and Threads"
+          speakers:
+            - name: Aaron Turon
+              avatar: aaron-turon
+    - title: "Code Design (half day, morning)"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Creating Better Interfaces in Rust"
+          speakers:
+            - name: Herman J. Radtke III
+              web: http://hermanradtke.com
+              twitter: hermanradtke
+              avatar: herman-radtke
+    - title: "Async (half day, afternoon)"
       start: TBA
       end: TBA
       topics:
@@ -117,32 +135,14 @@
               web: http://github.com/tailhook
               twitter: PaulColomiets
               avatar: paul-colomiets
-    - title: "Intermediate Rust"
-      start: TBA
-      end: TBA
-      topics:
-        - title: "Traits and Threads"
-          speakers:
-            - name: Aaron Turon
-              avatar: aaron-turon
-    - title: "Code Design"
-      start: TBA
-      end: TBA
-      topics:
-        - title: "Creating Better Interfaces in Rust"
-          speakers:
-            - name: Herman J. Radtke III
-              web: http://hermanradtke.com
-              twitter: hermanradtke
-              avatar: herman-radtke
-    - title: "Databases"
+    - title: "Databases (half day, afternoon)"
       start: TBA
       end: TBA
       topics:
         - title: "Building a distributed database in 3 hours with Rust"
           speakers:
             - name: Carl Lerche
-    - title: "TODO"
+    - title: "Machine learning (half day, afternoon)"
       start: TBA
       end: TBA
       topics:
