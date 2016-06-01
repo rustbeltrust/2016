@@ -22,3 +22,6 @@ sass:
 tag_page_layout: tag
 tag_page_dir: tag
 tag_permalink_style: pretty
+
+gems:
+ - jekyll-redirect-from
