@@ -1,0 +1,210 @@
+- title: "Day 1: Workshops (8 Tracks)"
+  tracks:
+    - title: "Welcome & Announcements"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Introduction to the Community"
+          speakers:
+            - name: Andrew Hobden
+              web: https://hoverbear.org
+              twitter: andrewhobden
+              avatar: andrew-hobden
+    - title: "Rust and Other Languages Track"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Rust Side Story: If Lets vs the ARCs"
+          speakers:
+            - name: Christopher Luu
+              twitter: nuudles
+        - title: "Hey! There’s OCaml In My Rust!"
+          speakers:
+            - name: Kel Cecil
+              twitter: praisechaos
+        - title: "Hire me for the JS, keep me for the Rust"
+          speakers:
+            - name: Jan-Erik Rediger
+              web: http://fnordig.de
+              twitter: badboy_
+              avatar: jan-erik-rediger
+        - title: "...And In The Darkness Bind Them: Fluent Rust Bindings for C APIs"
+          speakers:
+            - name: Joshua Matthews
+              web: http://joshmatthews.net
+              twitter: lastontheboat
+              avatar: joshua-matthews
+    - title: "Code Retreat"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Intro to Testing and Code Retreat"
+          speakers:
+            - name: Amber Conville
+              web: http://crebma.com/
+              twitter: crebma
+              avatar: amber-conville
+    - title: "Bare metal"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Programming ARM microcontrollers in Rust"
+          speakers:
+            - name: Jorge Aparicio
+              twitter: japaricious
+              avatar: jorge-aparicio
+    - title: "Testing"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "How to find bugs while sleeping, an introduction to Fuzz testing with Rust"
+          speakers:
+            - name: Corey Farwell
+              web: https://rwell.org
+              twitter: frewsxcv
+              avatar: corey-farwell
+        - title: "Property-Based Testing with QuickCheck"
+          speakers:
+            - name: Bill Laboon
+              twitter: BillLaboon
+              avatar: bill-laboon
+        - title: "War Stories from Debugging Rust"
+          speakers:
+            - name: Alex Crichton
+              web: http://alexcrichton.com
+              twitter: alex_crichton
+              avatar: alex-crichton
+        - title: "How I learned to stop fixing bugs (over and over again)"
+          speakers:
+            - name: Oliver Schneider
+              avatar: oliver-schneider
+    - title: "Operating Systems"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Intermezzos: A Teaching Operating System"
+          speakers:
+            - name: Steve Klabnik
+              twitter: steveklabnik
+              web: http://www.steveklabnik.com/
+              avatar: steve-klabnik
+            - name: Ashley Williams
+              twitter: ag_dubs
+              web: http://ashleygwilliams.github.io/
+              avatar: ashley-williams
+    - title: "Introduction to Rust"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Fearless systems programming for the modern developer"
+          speakers:
+            - name: Ben Striegel
+              twitter: bstrie
+              avatar: ben-striegel
+    - title: "Async"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "The State of Asynchronous Input and Output"
+          speakers:
+            - name: David Renshaw
+              twitter: dwrensha
+              web: https://github.com/dwrensha
+              avatar: david-renshaw
+        - title: "Asynchronous IO in Rust"
+          speakers:
+            - name: Paul Colomiets
+              web: http://github.com/tailhook
+              twitter: PaulColomiets
+              avatar: paul-colomiets
+    - title: "Intermediate Rust"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Traits and Threads"
+          speakers:
+            - name: Aaron Turon
+              avatar: aaron-turon
+    - title: "Code Design"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Creating Better Interfaces in Rust"
+          speakers:
+            - name: Herman J. Radtke III
+              web: http://hermanradtke.com
+              twitter: hermanradtke
+              avatar: herman-radtke
+    - title: "Databases"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Building a distributed database in 3 hours with Rust"
+          speakers:
+            - name: Carl Lerche
+    - title: "TODO"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Fly me to the moon: to boldly go where no code has gone before"
+          speakers:
+            - name: Daan van Berkel
+              web: https://github.com/darwins-challenge
+              twitter: daan_van_berkel
+              avatar: daan-rico
+            - name: Rico Huijbers
+              twitter: rix0rrr
+- title: "Day 2: Single Track"
+  tracks:
+    - title: "Main Gathering"
+      start: TBA
+      end: TBA
+      topics:
+        - title: "Core Team Keynote"
+          speakers:
+            - name: TBA
+        - title: "Hello and Welcome - Documentation in the Rust Ecosystem"
+          speakers:
+            - name: Andrew Brinker
+              web: http://andrewbrinker.com
+              twitter: AndrewBrinker
+              avatar: andrew-brinker
+        - title: "Rust in Translation"
+          speakers:
+            - name: Ashley Williams
+              web: http://ashleygwilliams.github.io/
+              twitter: ag_dubs
+              avatar: ashley-williams
+        - title: "Distributed messaging in Rust"
+          speakers:
+            - name: Casper Wilstrup
+              web: http://www.blackwoodseven.com
+              avatar: casper-wilstrup
+        - title: "Integrating some Rust in VLC media player"
+          speakers:
+            - name: Geoffroy Couprie
+              web: http://unhandledexpression.com
+              twitter: gcouprie
+              avatar: geoffroy-couprie
+        - title: "Unix systems programming made safe and fun!"
+          speakers:
+            - name: Kamal Marhubi
+              web: http://kamalmarhubi.com/
+              twitter: kamalmarhubi
+              avatar: kamal-marhubi
+        - title: "Lightning Talks"
+          speakers:
+            - name: YOU!!!
+              avatar: community
+        - title: "Rayon: Data Parallelism in Rust"
+          speakers:
+            - name: Nicholas Matsakis
+              web: http://smallcultfollowing.com/babysteps/
+              twitter: nikomatsakis
+              avatar: nicholas-matsakis
+        - title: "Category theory meets efficient data structures, thanks Rust!"
+          speakers:
+            - name: Pierre-Étienne Meunier
+              twitter: pijul_org
+              web: http://pijul.org
+              avatar: pierre-etienne-meunier
