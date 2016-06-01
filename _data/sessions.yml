@@ -18,10 +18,12 @@
           speakers:
             - name: Christopher Luu
               twitter: nuudles
+              avatar: ferris
         - title: "Hey! There’s OCaml In My Rust!"
           speakers:
             - name: Kel Cecil
               twitter: praisechaos
+              avatar: ferris
         - title: "Hire me for the JS, keep me for the Rust"
           speakers:
             - name: Jan-Erik Rediger
@@ -142,6 +144,7 @@
         - title: "Building a distributed database in 3 hours with Rust"
           speakers:
             - name: Carl Lerche
+              avatar: ferris
     - title: "Machine learning (half day, afternoon)"
       start: TBA
       end: TBA
