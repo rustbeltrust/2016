@@ -18,7 +18,7 @@
           speakers:
             - name: Christopher Luu
               twitter: nuudles
-              avatar: ferris
+              avatar: christopher-luu
         - title: "Hey! There’s OCaml In My Rust!"
           speakers:
             - name: Kel Cecil
