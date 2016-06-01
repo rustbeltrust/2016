@@ -163,6 +163,7 @@
         - title: "Core Team Keynote"
           speakers:
             - name: TBA
+              avatar: core-team
         - title: "Hello and Welcome - Documentation in the Rust Ecosystem"
           speakers:
             - name: Andrew Brinker
