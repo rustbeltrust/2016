@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'normalize-scss'
     gem 'jekyll-tagging'
     gem 'jekyll-paginate'
+    gem 'jekyll-redirect-from'
 end
