@@ -49,3 +49,7 @@ img.avatar {
     margin-top: 100px;
     border-bottom: 1px solid gray;
 }
+
+.navbar-inverse .navbar-nav > .featured > a {
+  background-image: linear-gradient(to bottom, #cbe86b 0px, #718D16 100%);
+}
