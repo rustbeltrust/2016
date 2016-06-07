@@ -54,3 +54,7 @@ img.avatar {
   color: #fff;
   background-image: linear-gradient(to bottom, #cbe86b 0px, #718D16 100%);
 }
+
+img.logo {
+  width: 100%;
+}
