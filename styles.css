@@ -14,6 +14,10 @@ p {
     margin: 20px 0;
 }
 
+blockquote {
+    font-size: 14px;
+}
+
 .template {
     padding: 40px 15px;
     max-width: 700px;
@@ -43,6 +47,8 @@ p {
 img.avatar {
     width: 200px;
     border: 2px solid gray;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .sessions h2 {
@@ -57,4 +63,18 @@ img.avatar {
 
 img.logo {
   width: 100%;
+}
+
+.speaker .bio {
+  font-style: italic;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
 }
