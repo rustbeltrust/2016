@@ -51,8 +51,8 @@
       start: TBA
       end: TBA
       topics:
-        - title: "Intro to Testing and Coderetreat"
-          description: "Coderetreat is an intensive practice event, focusing on the fundamentals of software development and design. Practicing the basic principles of modular and object-oriented design, developers can improve their ability to write code that minimizes the cost of change over time. Testing and TDD are an essential part of the Coderetreat practices-- first we'll learn the basics of testing in Rust. Then we will implement Conway's Game of Life in pairs with a variety of constraints to explore good software design in Rust."
+        - title: "Intro to Testing and Code Retreat"
+          description: "Code Retreat is an intensive practice event, focusing on the fundamentals of software development and design. Practicing the basic principles of modular and object-oriented design, developers can improve their ability to write code that minimizes the cost of change over time. Testing and TDD are an essential part of the Code Retreat practices-- first we'll learn the basics of testing in Rust. Then we will implement Conway's Game of Life in pairs with a variety of constraints to explore good software design in Rust."
           speakers:
             - name: Amber Conville
               bio: "Amber Conville is a developer at <a href='http://testdouble.com/'>Test Double</a>, and has been a software developer for 8 years. She loves code in lots of languages, tdd, craftsmanship, and the software community, and can be found speaking at or helping out with user groups, conferences, and nerd gatherings whenever possible."
