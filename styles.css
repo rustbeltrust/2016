@@ -6,7 +6,7 @@ a {
     text-decoration: underline;
 }
 
-nav a {
+nav a, a.btn {
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ img.avatar {
 }
 
 img.logo {
-  width: 100%;
+  width: 73%;
 }
 
 .speaker .bio {
@@ -104,4 +104,22 @@ ul.sponsors {
 
 .sponsor .logo {
     width: 200px;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+}
+
+.buynow {
+    margin: 40px 0;
+}
+
+.homepage-sponsors .sponsor {
+    float: left;
+    margin-right: 10px;
+    line-height: 6;
+}
+
+.homepage-sponsors h2 {
+    border-bottom: 1px solid #ccc;
 }
