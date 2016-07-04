@@ -78,3 +78,30 @@ img.logo {
 .clear:after {
     clear: both;
 }
+
+h2.sponsor-level {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sponsor-level-description {
+    font-style: italic;
+}
+
+ul.sponsors {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sponsor {
+    margin: 10px 0;
+}
+
+.sponsor a {
+    display: inline-block;
+}
+
+.sponsor .logo {
+    width: 200px;
+}

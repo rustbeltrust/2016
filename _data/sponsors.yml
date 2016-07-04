@@ -1,0 +1,39 @@
+- level: "Steel"
+  sponsors:
+    - name: "Your logo could be here!"
+      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+- level: "Gold"
+  sponsors:
+    - name: "Your logo could be here!"
+      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+- level: "Silver"
+  sponsors:
+    - name: "Your logo could be here!"
+      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+- level: "Bronze"
+  sponsors:
+    - name: "Your logo could be here!"
+      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+- level: "Speaker Travel Sponsors"
+  description: "Companies helping our awesome speakers get to Pittsburgh"
+  sponsors:
+    - name: "Mozilla"
+      website: "http://www.mozilla.com"
+      logo: "mozilla.png"
+    - name: "KIT"
+      website: "http://www.kit.edu/english/"
+      logo: "kit.svg"
+    - name: "rrbone"
+      website: "https://www.rrbone.net/en/imprint/"
+      logo: "rrbone.png"
+- level: "Infrastructure Sponsors"
+  description: "Companies helping to run the conference"
+  sponsors:
+    - name: "Integer 32"
+      website: "http://www.integer32.com"
+      logo: "integer32.svg"
+- level: "Community Sponsors"
+  description: "Generous individuals who donated additional funds beyond the ticket price"
+  sponsors:
+    - name: "Alexis Beingessner"
+      website: "https://twitter.com/gankro"

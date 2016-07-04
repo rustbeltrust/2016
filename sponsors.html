@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Sponsors"
+css_class: "sponsors"
+redirect_from:
+  - /sponsors.html
+---
+
+<h1>Rust Belt Rust Conference</h1>
+<h1>Sponsors</h1>
+
+<p class="lead">
+    Thank you so much to all of our sponsors; this conference would not be possible without you.
+</p>
+
+<p class="lead">
+    Would you like to become a sponsor? <a href="/rust-belt-rust-sponsor-prospectus.pdf">Check out our prospectus</a> and then email <a href="mailto:sponsorship@rust-belt-rust.com">sponsorship@rust-belt-rust.com</a>.
+</p>
+
+{% for tier in site.data.sponsors %}
+  <h2 class="sponsor-level">{{ tier.level }}</h2>
+  {% if tier.description %}
+    <p class="sponsor-level-description">
+        {{ tier.description }}
+    </p>
+  {% endif %}
+  <ul class="sponsors">
+      {% for sponsor in tier.sponsors %}
+          <li class="sponsor">
+              {% if sponsor.website %}
+                <a href="{{ sponsor.website }}">
+              {% endif %}
+              {% if sponsor.logo %}
+                  <img class="logo" src="/images/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+              {% else %}
+                  {{ sponsor.name }}
+              {% endif %}
+              {% if sponsor.website %}
+                </a>
+              {% endif %}
+
+          </li>
+      {% endfor %}
+  </ul>
+
+{% endfor %}
+
