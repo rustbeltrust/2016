@@ -120,6 +120,7 @@ ul.sponsors {
     line-height: 6;
 }
 
-.homepage-sponsors h2 {
+.homepage-sponsors h2,
+.hotel h2 {
     border-bottom: 1px solid #ccc;
 }
