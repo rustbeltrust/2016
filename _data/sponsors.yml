@@ -32,6 +32,12 @@
     - name: "Integer 32"
       website: "http://www.integer32.com"
       logo: "integer32.svg"
+- level: "Media Sponsors"
+  description: "Companies helping to publicize the conference"
+  sponsors:
+    - name: "Pittsburgh Technology Council"
+      website: "http://www.pghtech.org/"
+      logo: "ptc-logo.jpg"
 - level: "Community Sponsors"
   description: "Generous individuals who donated additional funds beyond the ticket price"
   sponsors:
