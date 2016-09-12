@@ -38,6 +38,12 @@
     - name: "Pittsburgh Technology Council"
       website: "http://www.pghtech.org/"
       logo: "ptc-logo.jpg"
+- level: "Ticket Sponsors"
+  description: "Companies who sponsored tickets to the conference"
+  sponsors:
+    - name: "Alphalab"
+      website: "http://alphalab.org/"
+      logo: "alphalab-logo.png"
 - level: "Community Sponsors"
   description: "Generous individuals who donated additional funds beyond the ticket price"
   sponsors:
