@@ -4,9 +4,9 @@
       website: "/rust-belt-rust-sponsor-prospectus.pdf"
 - level: "Gold"
   sponsors:
-    - name: "Chef"
+    - name: "Habitat by Chef"
       logo: "chef.png"
-      website: "https://www.chef.io/"
+      website: "https://www.habitat.sh/"
 - level: "Silver"
   sponsors:
     - name: "Your logo could be here!"
