@@ -4,8 +4,9 @@
       website: "/rust-belt-rust-sponsor-prospectus.pdf"
 - level: "Gold"
   sponsors:
-    - name: "Your logo could be here!"
-      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+    - name: "Chef"
+      logo: "chef.png"
+      website: "https://www.chef.io/"
 - level: "Silver"
   sponsors:
     - name: "Your logo could be here!"
