@@ -9,8 +9,9 @@
       website: "https://www.habitat.sh/"
 - level: "Silver"
   sponsors:
-    - name: "Your logo could be here!"
-      website: "/rust-belt-rust-sponsor-prospectus.pdf"
+    - name: "Distil Networks"
+      logo: "distil-networks.png"
+      website: "http://www.distilnetworks.com/"
 - level: "Bronze"
   sponsors:
     - name: "Your logo could be here!"
