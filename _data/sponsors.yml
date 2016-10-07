@@ -17,7 +17,7 @@
     - name: "Your logo could be here!"
       website: "/rust-belt-rust-sponsor-prospectus.pdf"
 - level: "Speaker Travel Sponsors"
-  description: "Companies helping our awesome speakers get to Pittsburgh"
+  description: "Organizations helping our awesome speakers get to Pittsburgh"
   sponsors:
     - name: "Mozilla"
       website: "http://www.mozilla.com"
@@ -29,23 +29,26 @@
       website: "https://www.rrbone.net/en/imprint/"
       logo: "rrbone.png"
 - level: "Infrastructure Sponsors"
-  description: "Companies helping to run the conference"
+  description: "Organizations helping to run the conference"
   sponsors:
     - name: "Integer 32"
       website: "http://www.integer32.com"
       logo: "integer32.svg"
 - level: "Media Sponsors"
-  description: "Companies helping to publicize the conference"
+  description: "Organizations helping to publicize the conference"
   sponsors:
     - name: "Pittsburgh Technology Council"
       website: "http://www.pghtech.org/"
       logo: "ptc-logo.jpg"
 - level: "Ticket Sponsors"
-  description: "Companies who sponsored tickets to the conference"
+  description: "Organizations who sponsored tickets to the conference"
   sponsors:
     - name: "Alphalab"
       website: "http://alphalab.org/"
       logo: "alphalab-logo.png"
+    - name: "Coderie"
+      website: "http://www.meetup.com/coderie/"
+      logo: "coderie.png"
 - level: "Community Sponsors"
   description: "Generous individuals who donated additional funds beyond the ticket price"
   sponsors:
