@@ -49,6 +49,12 @@
     - name: "Coderie"
       website: "http://www.meetup.com/coderie/"
       logo: "coderie.png"
+- level: "Stroopwafel Sponsors"
+  description: "Organizations providing sugary stroopwafels to attendees"
+  sponsors:
+    - name: "AppSignal"
+      website: "https://appsignal.com/"
+      logo: "appsignal.png"
 - level: "Community Sponsors"
   description: "Generous individuals who donated additional funds beyond the ticket price"
   sponsors:
