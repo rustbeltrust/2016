@@ -228,13 +228,11 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
               twitter: ag_dubs
               avatar: ashley-williams
               bio: "Ashley is a developer community and content manager for npm Inc. as well as an engineer, educator, and organizer of Node Together and part of the Node.js board of directors."
-        - title: "Distributed messaging in Rust"
-          description: "Blackwood Seven has used Rust to build a distributed messaging system. Our large scale data management and machine learning solution has driven us to evaluate many different messaging solutions, ranging from Apache Kafka and RabbitMQ to ZeroMQ and nanomsg. All of them we found lacking in either performance, cross language support, robustness or ease of administration.<br/><br/>This led us to build our own messaging solution from scratch in Rust. In this talk, Casper will present our experience with using the language and surrounding ecosystem to build a core part of our infrastructure. The talk will also include a presentation of the tool itself."
+        - title: "Building Little Languages with Rust"
+          description: "Languages are an underrated tool for solving engineering problems, in part because creating them has been difficult. Rust's unique combination of features make it an excellent language for writing compilers ranging from the Rust compiler itself to small domain specific languages. This talk will describe the implementation of a compiler for a query language for protocol buffers and how much easier it is to write one in Rust compared to C."
           speakers:
-            - name: Casper Wilstrup
-              bio: "I'm an experienced software developer who has more or less willingly worked my way into management. I've worked as a consultant with software firms of any size and with a number of venture funds, helping them structure their software development organizations.<br /><br />My main interest is to understand how to co-evolve software systems and the organizations that build them, so as to maximize productivity. I have always worked to understand what makes a good software design, and have become a strong supporter of agile approaches, of empowered teams, and of self-organization as the keys to maintain speed of development as the organization grows beyond the one-team size.<br /><br />After honing my thinking as a management and organizational consultant, I returned to the start-up scene in 2014, when I took on the role as CTO of Blackwood Seven."
-              web: http://www.blackwoodseven.com
-              avatar: casper-wilstrup
+            - name: Arcady Goldmints-Orlov
+              avatar: ferris
         - title: "Integrating some Rust in VLC media player"
           description: "VLC media player has a nice goal for users: handle almost any file or protocol you throw at it. Unfortunately, this results in a lot of parser vulnerabilities, because most of the parsing code is handwritten in C. By leveraging Rust and the nom parser combinators library, could we replace some security critical parts of VLC?"
           speakers:
