@@ -24,6 +24,12 @@ redirect_from:
       {% for topic in track.topics %}
         <div class="panel-body">
           <h4>{{topic.title}}</h4>
+          {% if topic.materials %}
+              <ul>
+                  <li><a href="{{topic.materials}}">Materials</a></li>
+              </ul>
+          {% endif %}
+
           <p>{{topic.description}}</p>
 
             {% for speaker in topic.speakers %}

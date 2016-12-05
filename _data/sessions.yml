@@ -18,6 +18,7 @@
       topics:
         - title: "Rust Side Story: If Lets vs the ARCs"
           description: "Dive into the whimsical world of Rust Side Story, a tragic love story set in the dark world of modern programming languages. Witness as our two star-crossed lovers, Jake Goulding (a Rustacean) and Chris Luu (a Swift), discover that their differences are only syntax-deep, but their sames go down to their LLVM-based bones. Revel in the musical masterpiece that brought us such wonderful songs as \"When You're In Rust\", \"I Feel Swifty\", and more that I haven't even thought up yet! Explore subjects like memory management, conditional binding, REPLs and other such interesting topics. Break out your trusty laptop for some code-alongs as we tackle sample projects to compare and contrast doing these the Rusty way and the Swifty way. \"Code in Rust and it's almost like praying.\""
+          materials: https://github.com/nuudles/RustSideStory
           speakers:
             - name: Christopher Luu
               twitter: nuudles
@@ -25,6 +26,7 @@
               bio: "Christopher Luu is a *gasp* Swift developer who has dabbled in the dark arts of Rustaceanography. After serving as CTO for a few years at a Brooklyn-based digital agency that focused on mobile apps, he has now joined the pirate's life of freelancing while embracing the chance to play around in this crazy new age of programming languages."
         - title: "Hey! There’s OCaml In My Rust!"
           description: "OCaml is a language that has seen what few languages have seen-- a resurgence. Several recent tools and language compilers have been built using OCaml, and Rust’s original compiler rustboot can be counted among these many excellent projects. Did you know that OCaml and ML’s influence on Rust reaches beyond that first compiler? Absolutely! The influence of OCaml and ML can be seen in Rust’s language features, syntax, and more. This talk will take a brief look at OCaml and Rust’s history. We’ll also investigate how OCaml and ML has and continues to influence Rust’s development by comparing and contrasting code samples, looking at past design discussions, and more."
+          materials: https://github.com/kelcecil/rust-ocaml-workshop
           speakers:
             - name: Kel Cecil
               twitter: praisechaos
@@ -33,6 +35,7 @@
         - title: "Hire me for the JS, keep me for the Rust"
           description: "Browsers speak JavaScript. So you need to use it for your next web page project. But what if JavaScript is not the right tool for the job? What if Rust fits your use case much better?<br /><br />We can use Rust in places you wouldn't expect it to be used. And one of these is in the frontend of your web application. In this talk I will show you how to do that and what's possible.<br /><br />A not-all-too-serious look beyond the tellerrand, on Rust and how it can help to take a look at other things from time to time.
 "
+          materials: http://www.hellorust.com/emscripten/
           speakers:
             - name: Jan-Erik Rediger
               web: http://fnordig.de
@@ -41,6 +44,7 @@
               bio: "Jan-Erik is a student of Computer Science, living in Aachen, Germany. When he's not studying, he's either travelling the world or helps with some open source projects like Redis, learns new programming languages or coaches at the OpenTechSchool and organizes conferences and meetups."
         - title: "...And In The Darkness Bind Them: Fluent Rust Bindings for C APIs"
           description: "One of Rust's biggest advantages is the ease with which authors can use preexisting C libraries in their Rust projects. Unfortunately, doing so forces the author to use the unsafe keyword and introduces the potential for memory safety-related errors. Happily, we can still get the best of both worlds by isolating this unsafety behind idiomatic, high-level Rust APIs!<br /><br />This talk will introduce the fundamentals of how to write low-level bindings to C APIs, then build on that knowledge to demonstrate techniques for creating high-level Rust APIs that shield the programmer from unsafety. We'll cover everything from representing C types in Rust and managing cross-language memory allocation, to enforcing invariants using types and restricting unsafety with lifetimes. Since these techniques are not restricted to C bindings, attendees will also become familiar with idiomatic API design practices for writing better Rust code in general."
+          materials: https://github.com/jdm/bindings-workshop
           speakers:
             - name: Joshua Matthews
               bio: "Josh is a platform developer at Mozilla. He spends a lot of time looking for ways to make open source projects more accessible to newcomers, and tries to put them into practice for the web rendering engine written in Rust called Servo. His barbershop quartet (the Bearded Baritones) are going to make it big any day now."
@@ -65,6 +69,7 @@
       topics:
         - title: "Programming ARM microcontrollers in Rust"
           description: "Let's explore the bottom of the software stack. There are no threads, processes or files here. But you got Rust on your side. Join me (bring your laptop!) and we'll I/O with the real world.<br/><br/>Microcontrollers will be provided, and because of that, attendance of this workshop is limited! Please make sure to choose this workshop when purchasing a ticket if you would like to attend!"
+          materials: https://japaric.github.io/rbr2016/
           speakers:
             - name: Jorge Aparicio
               twitter: japaricious
@@ -76,6 +81,7 @@
       topics:
         - title: "How to find bugs while sleeping, an introduction to Fuzz testing with Rust"
           description: "This talk is an introduction to fuzz testing Rust code. Fuzz testing is a software testing technique used to find security and stability issues by providing pseudo-random data as input to the software. This talk will be focused on using Rust with American fuzzy lop (AFL), a popular open-source fuzz testing tool.<br /><br />The talk will begin with a very brief summary of what fuzz testing is and how it relates to other forms of software testing. Then, we'll introduce AFL and describe (from a high level) how it works and some of its main features. After that, we'll demonstrate how to use AFL with Rust and some best practices. To conclude, we'll see some examples of how it has made Servo, the Rust compiler, and various other Rust libraries more robust and secure."
+          materials: https://github.com/frewsxcv/rust-belt-rust-fuzzing-workshop
           speakers:
             - name: Corey Farwell
               web: https://rwell.org
@@ -84,6 +90,7 @@
               bio: "Corey Farwell is a software developer from New York City. He is the maintainer for the Rust AFL bindings and also frequent contributor to Servo, the Rust compiler, and various other Rust projects. Outside of Rust, Corey mostly programs in Python and JavaScript doing full-stack web development."
         - title: "Property-Based Testing with QuickCheck"
           description: "In the old days, one would have to manually write tests and execute them. Modern testing involves manually writing tests, but the computer executes them. What if we could hop up another layer of automation and have the computer write our tests for us? With property-based testing, that dream is a reality. By defining properties of input and output, we can have the computer itself create and execute hundreds - or thousands, or millions - of tests, and perhaps find edge cases which would never have been found with traditional unit testing.<br /><br />QuickCheck is a popular tool for performing property-based testing. Originally developed for Haskell, there are now ports for many languages, including Rust. In this talk, I will go over the benefits and drawbacks of property-based testing, how it can be used to quickly find failure modes of functions, and how to incorporate QuickCheck into your projects and testing strategy."
+          materials: https://github.com/laboon/RBR_QuickCheck
           speakers:
             - name: Bill Laboon
               twitter: BillLaboon
@@ -99,6 +106,7 @@
               avatar: alex-crichton
         - title: "How I learned to stop fixing bugs (over and over again)"
           description: "A short design phase, a development phase with a focus on the quantity of implemented features, and a missing testing phase are major software engineering reasons for software failures after deployment. The automation, aerospace and automotive industries have tackled this through minimizing the number of features, the heavy use of modeling in the extended design phase, code reviews, and static analysis. But both of these extremes of software engineering processes have one thing in common: When a bug is fixed, the most that is learned from it is a regression test that prevents this one specific bug from occurring again. Similar bugs in completely unrelated pieces of code or even distinct projects will keep reappearing. Over years of experiencing with recurring bugs, software engineers develop best practices, static analysis tools, or even completely new languages. But this process is slow and will rarely benefit the projects in which the bugs originally were found. This talk presents a new part of the software engineering process where developers stop finding and fixing recurring bugs and instead outsource this to the compiler. Instead, when a bug is found, it is analyzed for various factors and depending on the result of that analysis, a new static analysis is added to the project that finds this kind of bug. When running the new static analysis, the bug and potentially other similar ones are flagged and can then be fixed either automatically or with developer intervention."
+          materials: /how_i_learned_to_stop_fixing_bugs.pdf
           speakers:
             - name: Oliver Schneider
               avatar: oliver-schneider
@@ -110,6 +118,7 @@
         - title: "Introduction to operating systems"
           description: "Have you ever wondered how operating systems work? In this session, Steve and Ashley will teach you how. No previous experience is required. We'll be working with intermezzOS, a learning kernel for the x86_64 platform, written in Rust (and some assembly code!) What we'll cover: <ul><li>Some basics of hardware and how it works</li><li>basic assembly language programming</li><li>\"boot to kmain\", all of the setup stuff needed before you can even
 write your kernel</li><li>printing to the screen</li><li>keyboard input and interrupts</li><li>Maybe more!</li></ul>"
+          materials: https://intermezzos.github.io/workshop-rustbeltrust2016/
           speakers:
             - name: Steve Klabnik
               twitter: steveklabnik
@@ -148,6 +157,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
       topics:
         - title: "Creating Better Interfaces in Rust"
           description: "Rust has a powerful type system, but do you know how to create good interfaces with those types? Rust's ownership model can make it challenging to translate how a program works in your mental model to syntax that satisfies the Rust compiler. We do not need to contort our interfaces in order to satisfy the compiler. I will introduce some strategies for working with the DST/slice pattern using the <code>Into</code> trait and <code>Cow</code> enum. I will also show how lifetimes can be leveraged to create safer interfaces for resource access."
+          materials: http://hermanradtke.com/talks.html#creating-better-function-interfaces-in-rust
           speakers:
             - name: Herman J. Radtke III
               bio: "I am a sociologist turned full stack engineer turned VP of Engineering at Nordstromrack.com | HauteLook in downtown Los Angeles. At one point, I designed and built most of the hypermedia API that drives the Nordstromrack.com | HauteLook website and mobile applications. I write PHP during the day at work and am a Rustacean at night. I spent a past life writing a lot of C and used that knowledge to help maintain the pecl/memcache and pecl/gearman extensions. I find myself with a renewed interest in systems programming, especially async IO. I also organize the Rust Log Angeles Meetup.<br /><br />Outside of technology, I enjoy homebrewing, hiking, camping and reading."
@@ -160,6 +170,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
       topics:
         - title: "The State of Asynchronous Input and Output"
           description: "Rust's standard library provides various ways to interact with the outside world, but as of now these methods are all synchronous. A program based on them typically needs a separate thread for each active connection, and threads come at a cost -- not only in terms of the computational resources they consume but also in terms of the cognitive overhead they introduce. Often connection handlers need access to some sort of shared mutable state; if they are all on separate threads then synchronizing that state can quickly become a complicated and error-prone business.<br /><br />The promise of asynchronous I/O is that, by allowing a single thread to handle multiple connections at a time, it can provide a foundation for more-efficient and easier-to-reason-about programs. The problem we have today is that there is no consensus about the best way to do asynchronous I/O in Rust. The purpose of this talk is to survey the progress that has been made so far. We will explore the emerging ecosystem of asynchronous libraries that have been published on crates.io, comparing the diverse high-level abstractions that have been proposed. How well do these abstractions compose with each other? How well do they encapsulate the different low-level primitives offered by the underlying operating systems -- primitives which sometimes need to be accessed but are are often hilariously incompatible between platforms? Is there a one-size-fits all solution? Will Rust's rumored upcoming \"async/await\" feature solve all of our problems? I don't have all the answers, but I hope to convince you that these are questions worth asking."
+          materials: https://github.com/dwrensha/zillions
           speakers:
             - name: David Renshaw
               twitter: dwrensha
@@ -168,6 +179,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
               bio: "David is author of the Rust implementation of Cap'n Proto, a fast data interchange format and distributed object-capability system. He resides in Pittsburgh and works on Sandstorm, a platform for personal web apps that depends on Cap'n Proto to orchestrate fine-grained container sandboxes."
         - title: "Asynchronous IO in Rust"
           description: "This is a workshop about tokio, an emerging standard for asynchronous IO in Rust. The session will start from learning futures, which are the basis for tokio. We'll learn how futures work and how to use combinators on them. Then we'll write a simple protocol using tokio. And finally, I'll explain how futures work internally and how to implement the Future trait for your own thing."
+          materials: https://github.com/tailhook/tokio-tutorial
           speakers:
             - name: Paul Colomiets
               bio: "I have coded in python for 10 years. I'm now coding mostly in Rust. I'm obsessive about asynchronous code and microservice-based architecture. For my day job, I'm building containerization and orchestration systems for <a href='http://prom.ua/'>prom.ua</a>."
@@ -180,6 +192,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
       topics:
         - title: "Building a distributed database in 3 hours with Rust"
           description: "Convergent replicated data types (CRDTs) are a new strategy for representing eventually consistent data. This talk will introduce CRDTs and show how to build a simple distributed database from scratch using Rust. You will learn how to build custom data structures with Rust as well as how to use Mio for networking, Lmdb for persistence, and protobufs for serialization."
+          materials: https://github.com/carllerche/rustbelt-tutorial
           speakers:
             - name: Carl Lerche
               avatar: carl-lerche
@@ -190,6 +203,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
       topics:
         - title: "Fly me to the moon: to boldly go where no code has gone before"
           description: "47 years ago man landed on the moon for the first time. Today is your chance to recreate that historic event. Writing code is soooo 1969, so you will teach a computer to write the control code for the moon lander.<br /><br />In this workshop you will learn the essentials of genetic programming, the trade-offs and pitfalls of this under appreciated machine learning strategy. You will exercise your newly learned skills on the problem of landing a spacecraft on the moon.<br /><br />So hop into your command seat and fly me to the moon."
+          materials: https://github.com/darwins-challenge/workshop
           speakers:
             - name: Daan van Berkel
               web: https://github.com/darwins-challenge
@@ -214,14 +228,15 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
               bio: "Nicholas Matsakis is a senior researcher at Mozilla research and a member of the Rust core team. He has been working on Rust for four years and did much of the initial work on its type system and other core features."
         - title: "Hello and Welcome - Documentation in the Rust Ecosystem"
           description: "Documentation is important. It lowers the barrier for newcomers to use and understand libraries. It helps train and prepare new contributors. It opens up avenues of contribution that go beyond writing code. It makes open source more open, and makes libraries better by its existence.<br /><br />Rust has all the makings of a great ecosystem of well-documented libraries: a high-quality and ever-improving documentation generator ships with the compiler, and the language team leads by example with a strong focus on documentation. Yet the quality and availability of documentation for Rust crates remains spotty, with many crates providing incomplete documentation, or relying on the types they expose to describe their use and function. This talk takes an in-depth look at the state of documentation in the Rust ecosystem today—including how many crates provide easily-located documentation, and how complete that documentation is—and then describes ideas for improvement, including improvements to Rust's documentation-related tools and ideas for crate maintainers to both write better docs themselves and to encourage contributions from others via documentation-focused mentorship."
+          materials: https://github.com/AndrewBrinker/talks/tree/master/rust-belt-rust-2016
           speakers:
             - name: Andrew Brinker
               bio: "Andrew Brinker is a systems engineer at MITRE. In his free time he tinkers on Ruse (a work-in-progress embedded Scheme for Rust), contributes to Rust crates and the Rust website, and blogs about type theory and Rust. He has a Bachelor of Science in Computer Science from California State University San Bernardino, where he graduated in 2015 as Outstanding Undergraduate for the College of Natural Sciences. While at CSUSB he volunteered roughly 1,000 hours as a tutor, co-created a free library of over 200 Computer Science, Computer Engineering, Mathematics, Physics, and Chemistry textbooks, and taught front and back end web development as a teaching and curriculum assistant."
               web: http://andrewbrinker.com
               twitter: AndrewBrinker
               avatar: andrew-brinker
-        - title: "Rust in Translation"
-          description: "<blockquote>Bob: Can you keep a secret? I'm trying to organize a language break. I'm looking for, like, an accomplice. We have to first get out of this domain, then the style, then the paradigm, and then the runtime. Are you in or you out?<br /><br />Charlotte: I'm in. I'll go pack my stuff.<br /><br />Bob: I hope that you've had enough to drink. It's going to take courage.</blockquote><p>I've written a lot of languages in my lifetime, and probably so have you. In this talk, I'll tell my story of translating, a small, but epic, declarative Ruby DSL to a ES6 parser in Rust. Along the way, I'll share the lessons I've learned about developer experience, language design, open source communities, and most importantly the value of translation as a learning and teaching tool.</p>"
+        - title: "intermezzOS: a teaching operating system"
+          materials: https://intermezzos.github.io/rustbeltrust2016/#1
           speakers:
             - name: Ashley Williams
               web: http://ashleygwilliams.github.io/
