@@ -246,6 +246,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
               bio: "Ashley is a developer community and content manager for npm Inc. as well as an engineer, educator, and organizer of Node Together and part of the Node.js board of directors."
         - title: "Building Little Languages with Rust"
           description: "Languages are an underrated tool for solving engineering problems, in part because creating them has been difficult. Rust's unique combination of features make it an excellent language for writing compilers ranging from the Rust compiler itself to small domain specific languages. This talk will describe the implementation of a compiler for a query language for protocol buffers and how much easier it is to write one in Rust compared to C."
+          materials: http://teapotahedron.com/littlelangs.pdf
           speakers:
             - name: Arcady Goldmints-Orlov
               avatar: ferris
@@ -260,6 +261,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
               avatar: geoffroy-couprie
         - title: "Unix systems programming made safe and fun!"
           description: "Systems programming often seems scary. To start with, you need to know C. Debugging obscure pointer issues is hard, and nobody will tell you if you're passing the wrong type of flag to a function. I've been doing a bunch of systems programming in Rust recently, and I've found it a lot easier, more accessible, and more fun."
+          materials: "/kamal-marhubi-system-programming-16x9.pdf"
           speakers:
             - name: Kamal Marhubi
               web: http://kamalmarhubi.com/
