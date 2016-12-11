@@ -137,6 +137,7 @@ write your kernel</li><li>printing to the screen</li><li>keyboard input and inte
       topics:
         - title: "Fearless systems programming for the modern developer"
           description: "Ben Striegel leads an active, hands-on introduction to Rust, a new systems programming language from Mozilla that emphasizes guaranteed memory safety (no segfaults!), fearless concurrency (no data races!), and lightning-fast, zero-overhead execution (no garbage collector!). Ben explains Rust's novel characteristics and demonstrates how you can put them to work in your own projects."
+          materials: http://slides.com/bstrie/rust-rbr#/
           speakers:
             - name: Ben Striegel
               bio: "Ben Striegel is one of the earliest members of the Rust community, having stumbled across the language in 2011, and has been an active contributor to the project ever since. Today, Ben is a member of Rust’s official community outreach team and focuses on teaching and mentoring newcomers and interfacing with other open source communities."
